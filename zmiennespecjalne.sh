@@ -1,0 +1,14 @@
+#!/bin/bash
+
+a=1
+b=2
+c=3
+d=4
+
+echo "Nazwa skryptu to: $0"
+echo "Pierwszy argument: $1"
+echo "Drugi argument: $2"
+echo "Wszystkie argumenty: $@"
+echo "Zwrocona wartosc przez program echo: $?"
+echo "PID biezacej powloki: $$"
+echo "Ilosc argumentow: $#"
