@@ -1,0 +1,9 @@
+ln = stworzenie linku twardego = taki sam index number (inode)
+ln -s = stworzenie linku symbolicznego = inny index number
+unlink = usuniecie linku
+
+../linki.txt '$$$'/linkS = jeżeli tworzymy link w innym folderze to musimy
+patrzyć z perspektywy tego folderu, w tym przypadku $$$
+
+aby wyswietlic pliki i porownac ich numery indeksow mozna zastosowac
+ls -i
